@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(__name__)
 
 # 加载模型
-model = tf.keras.models.load_model('./anemia_model_files/anemia_model.h5')
+model = tf.keras.models.load_model('./anemia_model.h5')
 
 @app.route('/')
 def home():
